@@ -13,9 +13,9 @@ public class HW15 {//open class
    {//open main 
 	
 	   
-	   Scanner input = new Scanner(System.in);//scanning for user input
+      Scanner input = new Scanner(System.in);//scanning for user input
 	   	   
-	   System.out.print("How many random numbers do you want? ");
+      System.out.print("How many random numbers do you want? ");
       int n = input.nextInt(); //input for n  
       
       System.out.print("What is the smallest random number? ");
@@ -55,6 +55,5 @@ public class HW15 {//open class
                out.print(c);//last number does not have ","
             }  
       } 
-     	
-	}
+   }
 }
